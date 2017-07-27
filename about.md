@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "回忆"
-description: "学苟知本，六经皆我注脚 "
+title: "About"
+description: "我想变成大海"
 header-img: "img/green.jpg"
 ---
 
@@ -10,9 +10,9 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是陈素封，每天千字践行者，践行时间：2014年02月10日至2015年02月23日，感谢这段经历，让我成为了现在的我。
+我是李小冬，活着的证明：2017年07月27日开始，经历人生，感谢经历，让我成为了现在的我。
 
-现在研习 **认知写作学** 。
+现在研习 **怎么赚钱** 。
 
 ###坚信
 
@@ -44,24 +44,25 @@ header-img: "img/green.jpg"
 - [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
 
 
-###我的朋友们
+###友情链接
 
 - [YiLee](http://yilee.me)
 - [Caos](http://caos.me)
 - [BuzhiNote](http://BuzhiNote.com)
 - [Azeril](http://azeril.me)
+- [CnFeat](http://cnfeat.com)
 
 ###联系
 
-- [博客：www.cnfeat.com](www.cnfeat.com)
+- [博客：www.lixdoo.com](www.lixdoo.com)
 
-- [微博@CnFeat](http://weibo.com/207775270)
+- [微博@lixdoo](http://weibo.com/2026803665)
 
-- [知乎@陈素封](http://www.zhihu.com/people/Feat)
+- [知乎@李小冬](https://www.zhihu.com/people/lixdoo)
 
-- [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
+- [知乎专栏]()
 
-- 公众号：cnfeat
+- 公众号：暂无
 
 
 <center>
