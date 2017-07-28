@@ -29,6 +29,7 @@ header-img: "img/green.jpg"
 - [知乎](https://www.zhihu.com)
 - java
 - Python
+- [缠中说禅](http://blog.sina.com.cn/chzhshch)
 - 股市
 
 
