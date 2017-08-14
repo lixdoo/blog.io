@@ -3,7 +3,7 @@ layout: post
 title: Spring MVC 处理器拦截器
 date: 2017-8-02
 categories: blog
-tags: [java,拦截器]
+tags: [java,拦截器,接口验证]
 description: 处理器拦截器的实际应用
 ---
 
@@ -34,11 +34,28 @@ APP 接口签名验证：主要用来验证请求来源是否合法；
 * 约定服务双方加密密钥appsecret  
 * 将所有请求参数按字母顺序排序，并拼接成字符串A  
 * 将字符串A与appsecret拼接并用md5加密  
+>项目中的签名  
+将参数放入签名中可以有效避免参数被篡改  
 
 
+
+在请求中加入时间戳可以保证请求的唯一性，时间间隔越长，链接的有效期就越长，唯一性越差。  
 [API接口签名验证](http://www.jianshu.com/p/d47da77b6419)
+
+应用请求将签名放在请求头中，服务器端响应请求时先验证请求的合法性。  
+
+
+#### 拦截器配置  
+* xml 配置
+>  
+
+* 拦截器  
+>  
+
+
+
 
 
 
 ##参考资料
-[参考一](http://jinnianshilongnian.iteye.com/blog/1670856)
+[参考一 拦截器](http://jinnianshilongnian.iteye.com/blog/1670856)
