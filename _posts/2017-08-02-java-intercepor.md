@@ -79,13 +79,13 @@ APP 接口签名验证：主要用来验证请求来源是否合法；
 #### 拦截器配置  
 * xml 配置
 > \<mvc:interceptors\>  
-		\<bean class="com.bluemobi.log.interceptor.ControlInterceptor" \/>    
-		<mvc:interceptor>  
-			<mvc:mapping path="/hhapp/login" />  
-			<mvc:mapping path="/productForApp/test" />    
-			<bean class="com.bluemobi.controller.app.AppInterceptor" />    
-		</mvc:interceptor>    
-</mvc:interceptors>  
+		\<bean class="com.bluemobi.log.interceptor.ControlInterceptor" />      
+		\<mvc:interceptor\>  
+			\<mvc:mapping path="/hhapp/login" />  
+			\<mvc:mapping path="/productForApp/test" />    
+			\<bean class="com.bluemobi.controller.app.AppInterceptor" />    
+		\</mvc:interceptor\>      
+\</mvc:interceptors\>    
 
 * 拦截器  
 >  public class AppInterceptor implements HandlerInterceptor {  
