@@ -10,7 +10,7 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是李小冬，活着的证明：2017年07月27日开始，经历人生，感谢经历，让我成为了现在的我。
+我是李小冬：2017年07月27日开始，经历人生，感谢经历，让我成为了现在的我。
 
 现在研习 **怎么赚钱** 。
 
