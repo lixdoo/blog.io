@@ -18,7 +18,7 @@ description: 热备份
 主库地址：192.168.0.210  从库地址：192.168.0.95      
 1. 设置从库账户      
 首先登陆主库数据库，在主库MySQL控制台中输入  
-mysql>GRANT PERLICATION SLAVE ON *.* TO 'backup'@'192.168.0.95' INDETIFIED BY '123456';  
+mysql>GRANT PERLICATION SLAVE ON \*.\* TO 'backup'@'192.168.0.95' INDETIFIED BY '123456';  
 mysql>flush privileges;  
 
 授权账户完成，可以在从服务器（192.168.0.95）上验证成功：mysql -h192.168.0.210 -ubackup  -p123456;  
