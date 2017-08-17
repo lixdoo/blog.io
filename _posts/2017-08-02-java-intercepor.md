@@ -36,7 +36,38 @@ APP 接口签名验证：主要用来验证请求来源是否合法；
 * 将字符串A与appsecret拼接并用md5加密  
 >项目中的签名  
 将参数放入签名中可以有效避免参数被篡改  
-
+// 1.获取签名
+    String pdAppSign = request.getHeader("PdAppSign");
+    // 1.1 诺签名为null 则为非法请求
+    if (pdAppSign == null || pdAppSign.equals("")) {
+      return false;
+    }
+    // 2.判断请求时间有效性
+    String reqdata = request.getParameter("reqdata");
+    JSONObject req = JSONObject.parseObject(reqdata);
+    long nowTime = System.currentTimeMillis();
+    long appTime = req.getLong("t");
+    System.out.println("hahahahahahaah"+Math.abs(nowTime - appTime));
+    if (Math.abs(nowTime - appTime) > 10000) {
+      return false;
+    }
+    // 3.验证签名
+    Map<String, String> valueMap = new TreeMap<String, String>();
+    for (String key : req.keySet()) {
+      String keyStr = (String) key;
+      Object keyValue = req.get(keyStr);
+      valueMap.put(keyStr, (String) keyValue);
+    }
+    StringBuffer sb = new StringBuffer();
+    // 加密签名
+    for (Map.Entry<String, String> entry : valueMap.entrySet()) {
+      // System.out.println(entry.getKey() + " " + entry.getValue());
+      sb.append(entry.getValue());
+    }
+    String appSign = StringUtil.md5(sb.toString() + Config.APPKEY);
+    if (!pdAppSign.equals(appSign)) {
+      return false;
+    }
 
 
 在请求中加入时间戳可以保证请求的唯一性，时间间隔越长，链接的有效期就越长，唯一性越差。  
@@ -47,10 +78,27 @@ APP 接口签名验证：主要用来验证请求来源是否合法；
 
 #### 拦截器配置  
 * xml 配置
->  
+>  <!-- 注册拦截器 -->
+	<mvc:interceptors>
+		<bean class="com.bluemobi.log.interceptor.ControlInterceptor" />
+		<mvc:interceptor>
+			<mvc:mapping path="/hhapp/login" />
+			<!--
+			<mvc:mapping path="/productForApp/test" /> -->
+			<bean class="com.bluemobi.controller.app.AppInterceptor" />
+		</mvc:interceptor>
+</mvc:interceptors>
 
 * 拦截器  
->  
+>  public class AppInterceptor implements HandlerInterceptor {
+	public void afterCompletion(HttpServletRequest arg0,
+			HttpServletResponse arg1, Object arg2, Exception arg3)
+			throws Exception {
+	}
+	public void postHandle(HttpServletRequest arg0, HttpServletResponse arg1,
+			Object arg2, ModelAndView arg3) throws Exception {
+	}
+	public boolean preHandle(HttpServletRequest request,HttpServletResponse response, Object handle) throws Exception {
 
 
 
