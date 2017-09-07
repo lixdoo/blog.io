@@ -33,8 +33,7 @@ Spring有两种事务管理机制，一是声明式事务，二是编程式事�
 1. 声明式事务  
 声明式事务实现是AOP的一种应用实现，声明式事务的好处是无需在业务逻辑代码中掺杂事务管理的代码。和编程式事务相比，声明式事务的缺点是管理粒度最小为方法，无法做到像编程式事务那样达到代码块级别。  
 #### 配置方式  
-Spring事务配置有5种方式，Spring事务管理配置主要由三个组成部分组成，分别是DataSource、TransactionManger和代理机制这三个部分。对于不同的配置方式来说，变化的部分是代理机制这部分。  
-
+Spring事务配置有5种方式，Spring事务管理配置主要由三个组成部分组成，分别是DataSource、TransactionManger和代理机制这三个部分。对于不同的配置方式来说，变化的部分是代理机制这部分。详细参考如下图：  
 
 <center>
     <p><img src="http://otzyx82p7.bkt.clouddn.com/Spring%E4%BA%8B%E5%8A%A1%E9%85%8D%E7%BD%AE%20%282%29.jpg" align="center"></p>
