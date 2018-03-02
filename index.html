@@ -5,7 +5,23 @@ description: "江苏省苏州市"
 
 {% for post in paginator.posts %}
 <div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:150 }}
+        </div>
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
 
+<hr>
 
 
 <ul class="pager">
@@ -24,21 +40,5 @@ description: "江苏省苏州市"
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
-<a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title">
-        {{ post.title }}
-    </h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">
-        {{ post.subtitle }}
-    </h3>
-    {% endif %}
-    <div class="post-content-preview">
-        {{ post.content | strip_html | truncate:150 }}
-    </div>
-</a>
-<p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
 
-<hr>
 {% endif %}
