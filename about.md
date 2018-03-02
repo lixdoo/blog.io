@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 
 
 <center>
-    <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
+    <p><img src="http://otzyx82p7.bkt.clouddn.com/%E5%85%AC%E5%8F%B8.jpg" align="center"></p>
 </center>
 
 欧派管业集团有限公司是一家的专用生产与销售PP-R管材管件，PE-RT地暖管，PUC-U排水管的集团公司。产品全部采用德国PIN8018标准，并通过国家权威机构的各项检测。  
@@ -16,9 +16,6 @@ header-img: "img/green.jpg"
 目前公司销售网络已遍布全国各省市自治区，欧派管已成为管道行业的先锋。我们也将把握时代脉搏，紧追世界潮流，致力于创造精良卓越的产品，提高完善细致的服务，携手与你共创辉煌。  
 
 
-<center>
-    <p><img src="http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png" align="center"></p>
-</center>
 
 
 联系我们  
