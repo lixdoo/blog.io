@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 关于我们
+date: 2017-7-28
 categories: blog
 tags: [公司简介]
 description: 欧派管业集团有限公司
