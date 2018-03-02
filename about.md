@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-description: "我想变成大海"
+title: "关于我们"
+description: "欧派管业集团有限公司"
 header-img: "img/green.jpg"
 ---
 
@@ -10,48 +10,10 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是李小冬：2017年07月27日开始，经历人生，感谢经历，让我成为了现在的我。
-
-现在研习 **怎么赚钱** 。
-
-###坚信
-
-
-- 未知生焉知死
-- 存在即合理
-- 一万小时定律
-- 不努力一定没有回报
-
-
-###关注：
-
-
-- [知乎](https://www.zhihu.com)
-- java
-- Python
-- [缠中说禅](http://blog.sina.com.cn/chzhshch)
-- 股市
-
-
-###友情链接
-
-- [YiLee](http://yilee.me)
-- [Caos](http://caos.me)
-- [BuzhiNote](http://BuzhiNote.com)
-- [Azeril](http://azeril.me)
-- [CnFeat](http://cnfeat.com)
-
-###联系
-
-- [博客：www.lixdoo.com](www.lixdoo.com)
-
-- [微博@lixdoo](http://weibo.com/2026803665)
-
-- [知乎@李小冬](https://www.zhihu.com/people/lixdoo)
-
-- [知乎专栏]()
-
-- 公众号：暂无
+欧派管业集团有限公司是一家的专用生产与销售PP-R管材管件，PE-RT地暖管，PUC-U排水管的集团公司。产品全部采用德国PIN8018标准，并通过国家权威机构的各项检测。  
+欧派牌系列产品分别荣获“中国名优产品”“国家优质建材推荐产品”“十大领军品牌”等荣誉称号，在国内外市场享有较高的知名度。            
+本公司全面实行ISO9001:2000国际质量体系认证，产品由中保承保，公司以诚信为本，以质量取胜，为创业理念。使公司产品质量不断提高，在不断发展和自我完善同时以高品质，低价位为一贯原则，深受广大用户好评。                     
+目前公司销售网络已遍布全国各省市自治区，欧派管已成为管道行业的先锋。我们也将把握时代脉搏，紧追世界潮流，致力于创造精良卓越的产品，提高完善细致的服务，携手与你共创辉煌。  
 
 
 <center>
