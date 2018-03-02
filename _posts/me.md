@@ -1,10 +1,13 @@
 ---
-layout: page
-title: "关于我们"
-description: "欧派管业集团有限公司"
-header-img: "img/green.jpg"
----
+layout: post
+title: 关于我们
+categories: blog
+tags: [公司简介]
+description: 欧派管业集团有限公司
 
+
+
+---
 
 <center>
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
