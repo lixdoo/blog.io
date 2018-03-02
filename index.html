@@ -22,8 +22,10 @@ description: "江苏省苏州市"
 </div>
 
 <hr>
+{% endfor %}
 
-
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
@@ -36,9 +38,4 @@ description: "江苏省苏州市"
     </li>
     {% endif %}
 </ul>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
 {% endif %}
