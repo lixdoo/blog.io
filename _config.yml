@@ -1,5 +1,5 @@
 # Site settings
-title: 向死而生
+title: 欧派管业
 header-img: "img/green.jpg"
 tagline: "cn"
 description: "李小冬|读而立·写而生"
@@ -29,7 +29,7 @@ zhihu_username:
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 8
+paginate: 1
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
